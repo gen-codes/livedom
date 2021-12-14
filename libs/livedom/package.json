@@ -1,0 +1,23 @@
+{
+  "name": "livedom",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@livedom/diff-patch": "0.0.0",
+    "@livedom/state": "0.0.0",
+    "@livedom/context": "0.0.0",
+    "@livedom/reducer": "0.0.0",
+    "@livedom/ref": "0.0.0",
+    "@livedom/effect": "0.0.0",
+    "@livedom/memo": "0.0.0",
+    "@types/node": "~16.11.13"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4",
+    "vite": "^2.7.2"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "extends": "livedom/tsconfig.json",
+  "include": [
+    "./src"
+  ]
+}

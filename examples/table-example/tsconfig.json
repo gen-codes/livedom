@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "lib": ["ESNext", "DOM"],
+    "outDir": "dist",
+    "moduleResolution": "Node",
+    "strict": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "noEmit": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "jsx": "react-jsx",
+    "jsxFactory": "LiveDom.createElement",
+    "jsxImportSource": "livedom",
+    "noImplicitReturns": true,
+    "baseUrl": "../../",
+    "paths": {
+      "@livedom/state": ["hooks/state/src/"],
+      "@livedom/context": ["hooks/context/src/"],
+      "@livedom/ref": ["hooks/ref/src/"],
+      "@livedom/reducer": ["hooks/reducer/src/"],
+      "@livedom/memo": ["hooks/memo/src/"],
+      "@livedom/effect": ["hooks/effect/src/"],
+      "@livedom/diff-patch": ["libs/diff-patch/src/"],
+      "livedom": ["libs/livedom/src/"],
+      "livedom/*": ["libs/livedom/src/*"]
+    }
+  },
+  "include": ["./src"]
+}

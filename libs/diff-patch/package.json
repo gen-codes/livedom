@@ -1,0 +1,14 @@
+{
+  "name": "@livedom/diff-patch",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "livedom": "0.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4",
+    "vite": "^2.7.2"
+  }
+}
